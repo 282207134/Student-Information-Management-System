@@ -1,18 +1,25 @@
 # Student-Information-Management-System
 ![](0.png)
 ##
-#システム構成イメージ図：
+システム構成イメージ図：
 ![](imejizu.png)
-#本システムの利用方法：
-##1.実行環境の準備：
-###バックエンドファイルではVMware WorkstationでUbuntuあるいはWindows７以上の仮想環境で実装できます。フロントエンドファイルでは本環境Windows７以上でVScodeの環境で実装できます。まだバックエンドでMySQL5.7を用意が必要です。以下のコマンドで"StudentV4DB"という名前のデータベースを生成してください。
+#
+本システムの利用方法：
 ##
-###CREATE DATABASE StudentV4DB;
-##2.ソースコードのダンロード
+1.実行環境の準備：
+###
+バックエンドファイルではVMware WorkstationでUbuntuあるいはWindows７以上の仮想環境で実装できます。フロントエンドファイルでは本環境Windows７以上でVScodeの環境で実装できます。まだバックエンドでMySQL5.7を用意が必要です。以下のコマンドで"StudentV4DB"という名前のデータベースを生成してください。
+##
+###
+CREATE DATABASE StudentV4DB;
+##
+2.ソースコードのダンロード
 [https://github.com/282207134/Student-Information-Management-System.git](https://github.com/282207134/Student-Information-Management-System.git)
 ##
-##3.ダンロードしたソースコードフォルダ中の/back end/StudentV4BE　をバックエンド、Student-Information-Management-System/front end/StudentV4FE　をフロントエンドの環境にコーピーてください。
-##4.VScodeでStudentV4FEフォルダを開いて、必要なプラグイン[Vue 3 Snippets]や[Live Server]をインストールしてください。
+##
+3.ダンロードしたソースコードフォルダ中の/back end/StudentV4BE　をバックエンド、Student-Information-Management-System/front end/StudentV4FE　をフロントエンドの環境にコーピーてください。
+##
+4.VScodeでStudentV4FEフォルダを開いて、必要なプラグイン[Vue 3 Snippets]や[Live Server]をインストールしてください。
 
 ![](tuuru.png)
 ##5.StudentV4FE\js\index.jsファイルの37行目を自分のバックエンドのIPアドレスを変更してください。
