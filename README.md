@@ -14,6 +14,7 @@
 CREATE DATABASE StudentV4DB;
 ##
 2.ソースコードのダンロード
+#
 [https://github.com/282207134/Student-Information-Management-System.git](https://github.com/282207134/Student-Information-Management-System.git)
 ##
 ##
@@ -34,6 +35,7 @@ CREATE DATABASE StudentV4DB;
 6.StudentV4BE\StudentV4BE\settings.py ファイルの修正：
 ###
 21行目で自分のバックエンドIPアドレスを変わります
+#
 ![](2.png)
 ###
 69行目からのデータベースを自分のように設定します。
@@ -46,6 +48,7 @@ CREATE DATABASE StudentV4DB;
 ![](4.png)
 ##
 7.バックエンドで以下のライブラリをインストールしてください。
+#
 pip install pymysql
 #
 pip install django-cors-headers   
@@ -65,6 +68,7 @@ sudo apt-get update
 sudo apt-get install python3-dev default-libmysqlclient-dev
 ##
 8.バックエンドでローカルサーバーを起動します。
+#
 python manage.py runserver 192.168.138.128:8000
 
 ##
@@ -90,6 +94,7 @@ python manage.py runserver 192.168.138.128:8000
 ![](11.png)
 ##
 導入したデータが見えます。
+#
 ![](12.png)
 
 #
