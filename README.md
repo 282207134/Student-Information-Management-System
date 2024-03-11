@@ -20,10 +20,12 @@ CREATE DATABASE StudentV4DB;
 3.ダンロードしたソースコードフォルダ中の/back end/StudentV4BE　をバックエンド、Student-Information-Management-System/front end/StudentV4FE　をフロントエンドの環境にコーピーてください。
 ##
 4.VScodeでStudentV4FEフォルダを開いて、必要なプラグイン[Vue 3 Snippets]や[Live Server]をインストールしてください。
+##
 
 ![](tuuru.png)
 ##
 5.StudentV4FE\js\index.jsファイルの37行目を自分のバックエンドのIPアドレスを変更してください。
+##
 ![](1.png)
 ##
 #
@@ -34,11 +36,13 @@ CREATE DATABASE StudentV4DB;
 21行目で自分のバックエンドIPアドレスを変わります
 ![](2.png)
 ###
-69行目からのデータベースを自分のように設定します。
+69行目からのデータベースを自分のように設定します。+
+##
 ![](3.png)
 
 ###
 107行目は自分のフロントエンドのIPアドレスに変わります。
+##
 ![](4.png)
 ##
 7.バックエンドで以下のライブラリをインストールしてください。
