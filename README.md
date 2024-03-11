@@ -36,7 +36,7 @@ CREATE DATABASE StudentV4DB;
 21行目で自分のバックエンドIPアドレスを変わります
 ![](2.png)
 ###
-69行目からのデータベースを自分のように設定します。+
+69行目からのデータベースを自分のように設定します。
 ##
 ![](3.png)
 
@@ -47,8 +47,6 @@ CREATE DATABASE StudentV4DB;
 ##
 7.バックエンドで以下のライブラリをインストールしてください。
 pip install pymysql
-
-
 #
 pip install django-cors-headers   
 #
@@ -56,10 +54,12 @@ pip install cryptography
 #
 pip install openpyxl
 #
-windowの場合
+windowの場合:
+#
 pip install mysqlclient
 #
-ubuntuの場合
+ubuntuの場合:
+#
 sudo apt-get update
 #
 sudo apt-get install python3-dev default-libmysqlclient-dev
