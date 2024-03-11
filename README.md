@@ -29,14 +29,20 @@
 ![](4.png)
 ##7.バックエンドで以下のライブラリをインストールしてください。
 pip install pymysql
-#
-pip install mysqlclient
+
+
 #
 pip install django-cors-headers   
 #
 pip install cryptography
 #
 pip install openpyxl
+#windowの場合
+pip install mysqlclient
+#ubuntuの場合
+sudo apt-get update
+#
+sudo apt-get install python3-dev default-libmysqlclient-dev
 ##8.バックエンドでローカルサーバーを起動します。
 python manage.py runserver 192.168.138.128:8000
 
