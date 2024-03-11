@@ -1,7 +1,7 @@
 # Student-Information-Management-System
 ![](0.png)
 ##
-##システム構成イメージ図：
+#システム構成イメージ図：
 ![](imejizu.png)
 #本システムの利用方法：
 ##1.実行環境の準備：
